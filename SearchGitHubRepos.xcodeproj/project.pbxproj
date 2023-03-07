@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0342B5B4D0B0190C90215C81C2E6005F /* NetworkDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE62DB23F5130D707A6560918FD4FD /* NetworkDTO.swift */; };
 		0BDCC5B3F3F75BF7C5A98CF5146AE85B /* libPods-SearchGitHubRepos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF0EC2D315D4049450E048FFE6B29D1 /* libPods-SearchGitHubRepos.a */; };
-		1010FEA84D63E7ABA2712639518E649C /* GitHubSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E19CDDC7EA6CBC3DADCEDEEB40F805 /* GitHubSearchAPI.swift */; };
+		18ABC79AE5B760644A74D3EE5559007D /* GitHubSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678BED355981B177B0C674560FE6179F /* GitHubSearchAPI.swift */; };
 		54F39AB08F7DF5E6661A3FCD16B8AA43 /* SearchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8ED94D32CC7462D44FDA4045C85D79 /* SearchDTO.swift */; };
 		8C07E64B2BB874E925202CDD87F96FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2316090378CCE5868C44676342CCD47C /* Assets.xcassets */; };
 		A13CA99DFCE3C2B83FEB492E1CE8821A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EEAEE3C16E954714398FF32F370AF7 /* Preview Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		2316090378CCE5868C44676342CCD47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303AF4AFB70000F6E5FD2AAEC058F2BA /* Pods-SearchGitHubRepos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchGitHubRepos.release.xcconfig"; path = "Target Support Files/Pods-SearchGitHubRepos/Pods-SearchGitHubRepos.release.xcconfig"; sourceTree = "<group>"; };
 		32C5E2400803C39F579F7C2C4C51E1F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		65E19CDDC7EA6CBC3DADCEDEEB40F805 /* GitHubSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchAPI.swift; sourceTree = "<group>"; };
 		65FE62DB23F5130D707A6560918FD4FD /* NetworkDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDTO.swift; sourceTree = "<group>"; };
+		678BED355981B177B0C674560FE6179F /* GitHubSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchAPI.swift; sourceTree = "<group>"; };
 		84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitHubReposApp.swift; sourceTree = "<group>"; };
 		9A8ED94D32CC7462D44FDA4045C85D79 /* SearchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTO.swift; sourceTree = "<group>"; };
 		A8EEAEE3C16E954714398FF32F370AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		10B915B868970C45B50B030D66C0C4D2 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				75867BAAF69DE80164767722E0748275 /* Data */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -99,7 +100,6 @@
 		98C0F82066D4B0995177645CDA42FFFC = {
 			isa = PBXGroup;
 			children = (
-				A8CFC6FD7978D1F11372920A9303F337 /* Data */,
 				4D43F9730910BEAA987A5BA21D8FD394 /* Frameworks */,
 				1811046FC85FBC88810297081C45F84D /* Model */,
 				E9BB2B362E092E4110E4284B18AD6753 /* Pods */,
@@ -109,10 +109,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		A8CFC6FD7978D1F11372920A9303F337 /* Data */ = {
+		75867BAAF69DE80164767722E0748275 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				65E19CDDC7EA6CBC3DADCEDEEB40F805 /* GitHubSearchAPI.swift */,
+				678BED355981B177B0C674560FE6179F /* GitHubSearchAPI.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C1C9B94A2B6609637FC5C089A01D1B /* ContentView.swift in Sources */,
-				1010FEA84D63E7ABA2712639518E649C /* GitHubSearchAPI.swift in Sources */,
+				18ABC79AE5B760644A74D3EE5559007D /* GitHubSearchAPI.swift in Sources */,
 				0342B5B4D0B0190C90215C81C2E6005F /* NetworkDTO.swift in Sources */,
 				54F39AB08F7DF5E6661A3FCD16B8AA43 /* SearchDTO.swift in Sources */,
 				C3F2EBC798524A9695718B2C6C8943BF /* SearchGitHubReposApp.swift in Sources */,
