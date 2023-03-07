@@ -54,6 +54,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		10B915B868970C45B50B030D66C0C4D2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		1811046FC85FBC88810297081C45F84D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +104,7 @@
 				1811046FC85FBC88810297081C45F84D /* Model */,
 				E9BB2B362E092E4110E4284B18AD6753 /* Pods */,
 				AEF12F86A74366E4707AA47E24F8B66D /* Products */,
+				10B915B868970C45B50B030D66C0C4D2 /* Search */,
 				86D8D29CB4803E8CB2C4DA471F4F3F58 /* SearchGitHubRepos */,
 			);
 			sourceTree = "<group>";
