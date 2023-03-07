@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F39AB08F7DF5E6661A3FCD16B8AA43 /* SearchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8ED94D32CC7462D44FDA4045C85D79 /* SearchDTO.swift */; };
 		8C07E64B2BB874E925202CDD87F96FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2316090378CCE5868C44676342CCD47C /* Assets.xcassets */; };
 		A13CA99DFCE3C2B83FEB492E1CE8821A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EEAEE3C16E954714398FF32F370AF7 /* Preview Assets.xcassets */; };
 		C3F2EBC798524A9695718B2C6C8943BF /* SearchGitHubReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */; };
@@ -17,6 +18,7 @@
 		2316090378CCE5868C44676342CCD47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C5E2400803C39F579F7C2C4C51E1F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitHubReposApp.swift; sourceTree = "<group>"; };
+		9A8ED94D32CC7462D44FDA4045C85D79 /* SearchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTO.swift; sourceTree = "<group>"; };
 		A8EEAEE3C16E954714398FF32F370AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B12C7F019A0BAFF0687EDFAA4C747999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB0EB04BC85718CD3FD866ABA13822A3 /* SearchGitHubRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchGitHubRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 		1811046FC85FBC88810297081C45F84D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A8ED94D32CC7462D44FDA4045C85D79 /* SearchDTO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C1C9B94A2B6609637FC5C089A01D1B /* ContentView.swift in Sources */,
+				54F39AB08F7DF5E6661A3FCD16B8AA43 /* SearchDTO.swift in Sources */,
 				C3F2EBC798524A9695718B2C6C8943BF /* SearchGitHubReposApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
