@@ -44,3 +44,13 @@ struct ResultCell: View {
     }
 }
 
+#if canImport(SwiftUI) && DEBUG
+
+struct SearchResultsView_Previews: PreviewProvider {
+    static var previews: some View {
+        SearchResultsView()
+    }
+}
+
+#endif
+
