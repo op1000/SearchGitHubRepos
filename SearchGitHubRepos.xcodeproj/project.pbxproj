@@ -59,6 +59,7 @@
 			children = (
 				75867BAAF69DE80164767722E0748275 /* Data */,
 				19EDFB991C4F96F7EE057A209289BBB4 /* Model */,
+				A610C376B1CC2300F4950A954ECDC5D4 /* ViewModel */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -115,6 +116,13 @@
 				10B915B868970C45B50B030D66C0C4D2 /* Search */,
 				86D8D29CB4803E8CB2C4DA471F4F3F58 /* SearchGitHubRepos */,
 			);
+			sourceTree = "<group>";
+		};
+		A610C376B1CC2300F4950A954ECDC5D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		AEF12F86A74366E4707AA47E24F8B66D /* Products */ = {
