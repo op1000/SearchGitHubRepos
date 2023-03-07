@@ -16,14 +16,12 @@
 		8C07E64B2BB874E925202CDD87F96FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2316090378CCE5868C44676342CCD47C /* Assets.xcassets */; };
 		A13CA99DFCE3C2B83FEB492E1CE8821A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EEAEE3C16E954714398FF32F370AF7 /* Preview Assets.xcassets */; };
 		C3F2EBC798524A9695718B2C6C8943BF /* SearchGitHubReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */; };
-		D4C1C9B94A2B6609637FC5C089A01D1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5E2400803C39F579F7C2C4C51E1F2 /* ContentView.swift */; };
 		D68A0B0A70F8555E54C18B5B72FE0BA6 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7CA9C5F6F0C565A9273A62AC9DCA2 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2316090378CCE5868C44676342CCD47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303AF4AFB70000F6E5FD2AAEC058F2BA /* Pods-SearchGitHubRepos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchGitHubRepos.release.xcconfig"; path = "Target Support Files/Pods-SearchGitHubRepos/Pods-SearchGitHubRepos.release.xcconfig"; sourceTree = "<group>"; };
-		32C5E2400803C39F579F7C2C4C51E1F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BDEB66C3B9C67E66F4E256CF04A189E /* NetworkDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDTO.swift; sourceTree = "<group>"; };
 		3DA61D0F86044A572394F69B821AE018 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGitHubReposApp.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			children = (
 				56587829EA3402CEA3C4CABCB0E122BB /* Search */,
 				08007C757809C6016D23724665354E16 /* Supporting Files */,
-				32C5E2400803C39F579F7C2C4C51E1F2 /* ContentView.swift */,
 				84DC47E7A5EE2B1C7CB7BFC824858DD8 /* SearchGitHubReposApp.swift */,
 			);
 			path = SearchGitHubRepos;
@@ -255,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4C1C9B94A2B6609637FC5C089A01D1B /* ContentView.swift in Sources */,
 				1EAEFF8903F3EFD6CCBAFC5E09FAB479 /* GitHubSearchAPI.swift in Sources */,
 				59A9B030AB8E2FF04EDC662D38317B09 /* NetworkDTO.swift in Sources */,
 				D68A0B0A70F8555E54C18B5B72FE0BA6 /* SearchBar.swift in Sources */,
