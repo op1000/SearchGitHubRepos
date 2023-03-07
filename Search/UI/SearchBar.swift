@@ -64,3 +64,17 @@ struct SearchBar: View {
     }
 }
 
+#if canImport(SwiftUI) && DEBUG
+
+struct SearchBar_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            SearchBar(viewModel: SearchViewModel(searchText: "op1000"))
+                .previewDisplayName("given")
+            SearchBar(viewModel: SearchViewModel(searchText: ""))
+                .previewDisplayName("empty")
+        }
+    }
+}
+
+#endif
