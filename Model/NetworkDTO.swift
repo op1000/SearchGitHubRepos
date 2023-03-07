@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Alamofire
+
+struct NetworkError: Error {
+    let initialError: AFError
+}
