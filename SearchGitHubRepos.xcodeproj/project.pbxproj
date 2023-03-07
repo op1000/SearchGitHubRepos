@@ -61,6 +61,7 @@
 			children = (
 				75867BAAF69DE80164767722E0748275 /* Data */,
 				19EDFB991C4F96F7EE057A209289BBB4 /* Model */,
+				BAB0C0952CF5BDEEC4665737A5001072 /* UI */,
 				A610C376B1CC2300F4950A954ECDC5D4 /* ViewModel */,
 			);
 			path = Search;
@@ -134,6 +135,13 @@
 				BB0EB04BC85718CD3FD866ABA13822A3 /* SearchGitHubRepos.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB0C0952CF5BDEEC4665737A5001072 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		E9BB2B362E092E4110E4284B18AD6753 /* Pods */ = {
