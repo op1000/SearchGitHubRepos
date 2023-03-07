@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BDCC5B3F3F75BF7C5A98CF5146AE85B /* libPods-SearchGitHubRepos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF0EC2D315D4049450E048FFE6B29D1 /* libPods-SearchGitHubRepos.a */; };
+		1726D1B025B4FA865894A5D63D2881C3 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2B1DFAEE8F1C25031B4DCCD2893791 /* SearchResultsView.swift */; };
 		1EAEFF8903F3EFD6CCBAFC5E09FAB479 /* GitHubSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915AA5C863A4AFABC735B02F33B51C9C /* GitHubSearchAPI.swift */; };
 		234399FD801AACA309BCC4A7ACD117A7 /* SearchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF3C0B9E3C23F54A18E68826D488EE /* SearchDTO.swift */; };
 		4C5A27EDFCA46D21E5E60874191757F1 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA61D0F86044A572394F69B821AE018 /* SearchViewModel.swift */; };
@@ -32,6 +33,7 @@
 		B12C7F019A0BAFF0687EDFAA4C747999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB0EB04BC85718CD3FD866ABA13822A3 /* SearchGitHubRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchGitHubRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD058867BD0C2AFFC80A1B57A5DAFF6D /* Pods-SearchGitHubRepos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchGitHubRepos.debug.xcconfig"; path = "Target Support Files/Pods-SearchGitHubRepos/Pods-SearchGitHubRepos.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2B1DFAEE8F1C25031B4DCCD2893791 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
 		E1AF3C0B9E3C23F54A18E68826D488EE /* SearchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTO.swift; sourceTree = "<group>"; };
 		FCF0EC2D315D4049450E048FFE6B29D1 /* libPods-SearchGitHubRepos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SearchGitHubRepos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A7CA9C5F6F0C565A9273A62AC9DCA2 /* SearchBar.swift */,
+				DD2B1DFAEE8F1C25031B4DCCD2893791 /* SearchResultsView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				D68A0B0A70F8555E54C18B5B72FE0BA6 /* SearchBar.swift in Sources */,
 				234399FD801AACA309BCC4A7ACD117A7 /* SearchDTO.swift in Sources */,
 				C3F2EBC798524A9695718B2C6C8943BF /* SearchGitHubReposApp.swift in Sources */,
+				1726D1B025B4FA865894A5D63D2881C3 /* SearchResultsView.swift in Sources */,
 				4C5A27EDFCA46D21E5E60874191757F1 /* SearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
